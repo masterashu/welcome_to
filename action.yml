@@ -2,7 +2,7 @@ name: Welcome to
 description: Comments a welcome message when a user creates a Pull Request.
 author: Your name or organization here
 inputs:
-  welcome_message_pr:
+  welcome_message:
     description: Message to be shown to the user
     required: true
     default: >

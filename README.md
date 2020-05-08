@@ -15,9 +15,9 @@ jobs:
     steps:
       - uses: actions/checkout@v1.0.0
       - name: Welcome to My Repo
-        uses: masterashu/welcome_to@v0.1
+        uses: masterashu/welcome_to@v0.2
         with: 
-          welcome_message_pr: > 
+          welcome_message: > 
             Welcome to my repo. Thanks for creating a PR.
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
