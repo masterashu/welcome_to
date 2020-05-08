@@ -1,10 +1,14 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: Welcome to
+description: Comments a welcome message when a user creates a Pull Request.
+author: Your name or organization here
 inputs:
-  myInput:              # change this
-    description: 'input description here'
-    default: 'default value if applicable'
+  welcome_message_pr:
+    description: Message to be shown to the user
+    required: true
+    default: >
+      Hi! Thanks for the PR.
+      The people responsible will review your PR shortly.
+
 runs:
   using: 'node12'
   main: 'dist/index.js'
